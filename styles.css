@@ -95,6 +95,7 @@ p {
 #portraitPopup {
   position: absolute;
   display: none;
+  visibility: hidden;
   background-color: black;
   width: 100%;
   height: 100%;
@@ -102,6 +103,7 @@ p {
 
 #portraitText {
   display: inherit;
+  visibility: inherit;
   text-align: center;
   position: absolute;
   left: 50%;
