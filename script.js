@@ -84,6 +84,60 @@ window.onload = function(){
         screenDiv.style.backgroundImage = 'none'
         isInside = false;
       });
+
+
+
+    //Steam
+    const steam = this.document.getElementById('steam');
+
+    //hover
+    steam.addEventListener('mouseover', function(){
+        if (!isInside) {
+            isInside = true;
+            screenDiv.style.backgroundImage = "url('./Images/Steam Background.png')";
+        }
+    });
+    steam.addEventListener('mouseout', () => {
+        screenDiv.innerHTML = ''
+        screenDiv.style.backgroundImage = 'none'
+        isInside = false;
+      });
+
+
+
+    //Tetrio
+    const tetrio = this.document.getElementById('tetrio');
+
+    //hover
+    tetrio.addEventListener('mouseover', function(){
+        if (!isInside) {
+            isInside = true;
+            screenDiv.style.backgroundImage = "url('./Images/Tetris Background.png')";
+        }
+    });
+    tetrio.addEventListener('mouseout', () => {
+        screenDiv.innerHTML = ''
+        screenDiv.style.backgroundImage = 'none'
+        isInside = false;
+      });
+
+
+
+    //Chess
+    const chess = this.document.getElementById('chess');
+
+    //hover
+    chess.addEventListener('mouseover', function(){
+        if (!isInside) {
+            isInside = true;
+            screenDiv.style.backgroundImage = "url('./Images/Chess Background.png')";
+        }
+    });
+    chess.addEventListener('mouseout', () => {
+        screenDiv.innerHTML = ''
+        screenDiv.style.backgroundImage = 'none'
+        isInside = false;
+      });
 };
 
 
