@@ -115,13 +115,13 @@ p {
 
 @media only screen and (orientation: portrait) {
   #portraitPopup {
-    display: block;
+    display: block !important;
   }
 }
 
 
 @media only screen and (orientation: landscape) {
   #portraitPopup {
-    display: none;
+    display: none !important;
   }
 }
