@@ -33,7 +33,6 @@ a {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   position: absolute;
-  top: -40px;
   left: 0%;
   width: 51.5vw;
   height: 33vw;
